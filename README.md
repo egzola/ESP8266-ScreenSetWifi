@@ -10,3 +10,9 @@ http://www.zolalab.com.br/esp8266/box.html
 
 
 You can see a video at:
+
+
+
+Circuit:
+
+![Picture 1](https://github.com/egzola/ESP8266-Light-Pulse-Input-Credentials/blob/master/circuit.png?raw=true)
