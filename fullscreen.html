@@ -1,0 +1,135 @@
+<!-- Developed by: Eduardo Zola (http://www.zolalab.com.br) @brazil/sp -->
+<body id="body" bgcolor=black>
+<div id="painel">
+   <input type="text" id="texto" value="Test">
+   <input type="button" onclick="init();" value="Send">
+</div>
+</body>
+
+<script>
+
+
+var TXT = "";
+var XBIN = "";
+
+
+var painel;
+var box;
+var TEXTO;
+
+
+var cnt = 0;
+var sz = 0;
+
+var cor1 = "#000000";
+var cor2 = "#FFFFFF";
+var tempo = 0;
+
+
+
+window.rtimeOut=function(callback,delay){
+ var dateNow=Date.now,
+     requestAnimation=window.requestAnimationFrame,
+     start=dateNow(),
+     stop,
+     timeoutFunc=function(){
+      dateNow()-start<delay?stop||requestAnimation(timeoutFunc):callback()
+     };
+ requestAnimation(timeoutFunc);
+ return{
+  clear:function(){stop=1}
+ }
+}
+
+
+
+function init()
+{
+   painel = document.getElementById("painel"); 
+   box = document.getElementById("body");
+   TEXTO = document.getElementById("texto");
+
+   TXT = ">"+TEXTO.value;
+   TXT = TXT + String.fromCharCode(crc(TXT));
+//console.log(TXT);
+
+   XBIN = "11110000"+binary(TXT) + "0";
+   painel.style.display = "none";
+   cnt = 0;
+   sz = XBIN.length;
+   send();
+}
+
+
+
+function send()
+{
+// tempo1 = 27 ; tempo2 = 75 ; intervalo = 40
+    goWhite();
+    bin = XBIN[cnt];
+    if(bin == "1") tempo = 50; else tempo = 250;
+    cnt++;
+    if(cnt <= sz) window.rtimeOut(goBlack,80); else fim();   //setTimeout("goBlack("+tempo+")",35); else fim();
+} 
+
+function goWhite()
+{
+    box.style.backgroundColor=cor2;
+}
+
+function goBlack()
+{
+    black();
+    window.rtimeOut(send,tempo);
+    //setTimeout("send()",ms);
+}
+
+
+function black()
+{
+   box.style.backgroundColor=cor1;
+}
+
+
+function fim()
+{
+   black();
+
+   painel.style.display = "";
+}
+
+
+function binary(input) 
+{
+    output = "";
+    for (i=0; i < input.length; i++) 
+    {
+        bin = input[i].charCodeAt(0).toString(2);
+        bin = Array(8-bin.length+1).join("0") + bin;
+        output += bin;
+    }
+    return(output);
+}
+
+
+function crc(str) 
+{
+  var soma = 0;
+  var qtd = str.length;
+
+    v1 = str.charCodeAt(0);
+    for(var i = 1;i<qtd;i++) 
+    {
+        v2 = str.charCodeAt(i);
+        if(v2 > v1) soma += (v2-v1); else soma += (v1-v2);
+        if(soma > 255) soma -= 255;
+        v1 = v2;
+    }
+
+//    soma = parseInt(soma / qtd);
+
+    return(soma);
+
+};
+
+</script>
