@@ -1,6 +1,8 @@
-# ESP8266-Light-Pulse-Input-Credentials
+# ESP8266-Screen-Set-Wifi
 
-Esp8266 Light Pulse Input Credentials 
+Esp8266 Screen Set Wifi
+
+This library can transfer data (WiFi credentials) from your smartphone to an ESP8266 by Pulsing your Mobile Screen.
 
 Setup your WiFi Credentials over Smartphone Screen Black and White Oscillation
 
