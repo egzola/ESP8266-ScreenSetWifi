@@ -11,8 +11,7 @@ Items required:
 - ESP-12F (and all the basic componentes to make it work)
 - Resistor 300k
 - LDR 50K-50M Omhs (GL5539)
-
-Unzip the library ESP8266-screenSetWifi-master.zip into your Arduino Library Folder
+- Unzip the library ESP8266-screenSetWifi-master.zip into your Arduino Library Folder
 
 You can try a demo at:  
 
