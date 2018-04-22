@@ -12,6 +12,8 @@ Items required:
 - Resistor 300k
 - LDR 50K-50M Omhs (GL5539)
 
+Unzip the library ESP8266-screenSetWifi-master.zip into your Arduino Library Folder
+
 You can try a demo at:  
 
 http://www.zolalab.com.br/esp8266/screenSetWifi/html/screenSetWifi.html
