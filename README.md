@@ -24,8 +24,10 @@ As you can see I did a case to my circuit, and left the LDR on the bottom to com
 
 ![Picture 1](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/case1.jpg?raw=true)
 
+Let the LDR at the bottom of the case
 ![Picture 2](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/case2.jpg?raw=true)
 
+Put your case over the smartphone screen, and set brightness to 80%
 ![Picture 3](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/case3.jpg?raw=true)
 
 
