@@ -22,6 +22,11 @@ http://www.zolalab.com.br/esp8266/screenSetWifi/html/screenSetWifi.html
 
 As you can see I did a case to my circuit, and left the LDR on the bottom to communicate with a smartphone.
 
+![Picture 1](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/case1.jpg?raw=true)
+
+![Picture 2](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/case2.jpg?raw=true)
+
+![Picture 3](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/case3.jpg?raw=true)
 
 
 You can see a video at:
@@ -30,4 +35,4 @@ You can see a video at:
 
 Circuit:
 
-![Picture 1](https://github.com/egzola/ESP8266-Light-Pulse-Input-Credentials/blob/master/circuit.png?raw=true)
+![Picture 4](https://github.com/egzola/ESP8266-Light-Pulse-Input-Credentials/blob/master/circuit.png?raw=true)
