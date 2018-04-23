@@ -31,10 +31,20 @@ Put your case over the smartphone screen, and set brightness to 80%
 ![Picture 3](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/case3.jpg?raw=true)
 
 
-You can see a video at:
+You can see a video:
 
 
 
 Circuit:
 
 ![Picture 4](https://github.com/egzola/ESP8266-Light-Pulse-Input-Credentials/blob/master/circuit.png?raw=true)
+
+
+Tests:
+
+![Picture 5](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/test1.jpg?raw=true)
+![Picture 6](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/test2.jpg?raw=true)
+![Picture 7](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/test3.jpg?raw=true)
+![Picture 8](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/test4.jpg?raw=true)
+![Picture 9](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/test5.jpg?raw=true)
+
