@@ -15,6 +15,12 @@ Items required:
 
 PS: You can try other variations of resistor values and LDR types. Just make sure the max resistive value of LDR is greater than the pull-down resistor.
 
+
+You can see a video:
+
+[![Watch the video](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/preview.png?raw=true)](https://youtu.be/ZZHWxdNXwwc)
+
+
 You can try a demo at:  
 
 http://www.zolalab.com.br/esp8266/screenSetWifi/html/screenSetWifi.html
@@ -29,12 +35,6 @@ Let the LDR at the bottom of the case
 
 Put your case over the smartphone screen, and set brightness to 80%
 ![Picture 3](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/case3.jpg?raw=true)
-
-
-You can see a video:
-
-[![Watch the video](https://github.com/egzola/esp12-solderless-flasher-adapter/blob/master/esp12adapter.png?raw=true)](https://youtu.be/ZZHWxdNXwwc)
-
 
 
 Circuit:
