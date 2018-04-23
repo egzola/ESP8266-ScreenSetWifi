@@ -33,6 +33,8 @@ Put your case over the smartphone screen, and set brightness to 80%
 
 You can see a video:
 
+[![Watch the video](https://github.com/egzola/esp12-solderless-flasher-adapter/blob/master/esp12adapter.png?raw=true)](https://youtu.be/ZZHWxdNXwwc)
+
 
 
 Circuit:
