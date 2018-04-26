@@ -18,7 +18,7 @@ PS: You can try other variations of resistor values and LDR types. Just make sur
 
 Video 1:
 
-[![Watch the video](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/preview2.png?raw=true)](https://youtu.be/jeT3SGQUzRI)
+[![Watch the video](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/preview3.png?raw=true)](https://youtu.be/jeT3SGQUzRI)
 
 
 Video 2:
