@@ -16,7 +16,12 @@ Items required:
 PS: You can try other variations of resistor values and LDR types. Just make sure the max resistive value of LDR is greater than the pull-down resistor.
 
 
-You can see a video:
+Video 1:
+
+[![Watch the video](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/preview2.png?raw=true)](https://youtu.be/jeT3SGQUzRI)
+
+
+Video 2:
 
 [![Watch the video](https://github.com/egzola/ESP8266-ScreenSetWifi/blob/master/preview.png?raw=true)](https://youtu.be/ZZHWxdNXwwc)
 
