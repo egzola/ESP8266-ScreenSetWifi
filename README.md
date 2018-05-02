@@ -12,6 +12,7 @@ Items required:
 - Resistor 300k
 - LDR 50K-50M Omhs (GL5539)
 - Unzip the library ESP8266-screenSetWifi-master.zip into your Arduino Library Folder
+- Unzip the html_example.zip
 
 PS: You can try other variations of resistor values and LDR types. Just make sure the max resistive value of LDR is greater than the pull-down resistor.
 
