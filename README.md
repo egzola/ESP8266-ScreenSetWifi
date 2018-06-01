@@ -1,6 +1,7 @@
 # ESP8266 - Screen Modulation Set WiFi Credentials
 
 Screen Modulation Set WiFi Credentials
+by Eduardo Zola (www.zolalab.com.br)
 
 This library can transfer data (WiFi credentials) from your smartphone to an ESP8266 by Pulsing your Mobile Screen.
 
